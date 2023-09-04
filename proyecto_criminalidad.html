@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos_proyecto_criminalidad.css">
+    <title>Javier Correa</title>
+    <link rel="icon" href="./icono.svg">
+</head>
+<body>
+    <header id="header_proyecto_criminalidad">
+        <img class="foto" src="./IMG(4).png" alt="Foto">
+        <h1 class="mi_nombre">Javier Correa Sua</h1>
+        <h2 class="mi_profesion">| Analista de Datos |</h2>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html" class="inicio">Ir a Inicio</a>
+                <a href="#id_proceso" class="btn_proceso">Proceso</a>
+                <a href="#" class="contacto" id="contacto">Contacto</a>
+            </li>
+        </ul>        
+    </nav>
+
+    <!--Aquí está el nuevo div que agrego para la ventana popup-->
+    <div id="popup-container" class="popup">
+        <span id="close-button" class="close-button">×</span> <!-- Agrega un botón de cierre -->
+        <img src="./square-envelope-solid.svg" alt="Correo Electrónico" id="gmail-link">
+        <img src="./linkedin.svg" alt="LinkedIn" id="linkedin-link">
+        <p>Número Celular: +57 3008819213</p>
+    </div>
+    <!--Y aquí termina-->
+
+    <div class="div_separador">
+
+    </div>
+    <section class="titulo_descripcion">
+        <h2>Del Caos a la Claridad: Un enfoque Analítico de la Criminalidad en Colombia</h2>
+        <p>Desde hace un tiempo he estado pensando, ¿Cuál es la ciudad/departamento más insegura de 
+            nuestro hermoso país?, o ¿Qué tipo de delitos son los que más se cometen en nuestras tierras?.
+            <br><br>
+            Estas y muchas más preguntas me han surgido últimamente, así que decidí emprender una busqueda de información
+            para poder descubrir las respuestas a estas inquietudes.
+            <br><br>
+            Afortunadamente tenemos la plataforma de información pública del país Colombiano <a href="https://datos.gov.co/" target="_blank">https://datos.gov.co/</a> donde se encuentran
+            los datasets necesarios para poder desentrañar estos datos, así que si también lo quieres explorar adentrate en el
+            siguiente iframe conmigo,
+            ¡Vamos!. 
+        </p>
+    </section>
+    <div class="div_separador"></div>
+    <section class="informe">
+        <!--Aquí debo poner el script de power bi o el video, según decida-->
+        <iframe class="reporte_power_bi" title="Report Section" width="80%" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZmQ1OWZlYTAtMTZhYS00YjZkLWFmNWQtNGMxMGFhMTFmYjNjIiwidCI6ImRiNGEzMDRhLTJkYmMtNGY0NS1iMmY5LTUyZTcxYjMxZTM0YyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+    </section>
+    <div class="div_separador"></div>
+    <section class="conclusiones">
+        <h3>Conclusiones</h3>
+        <p>
+            En este análisis podemos identificar varias cosas, entre ellas las que considero las más 
+            relevantes son que, por ejemplo, la tasa de criminalidad y el número de víctimas no ha hecho 
+            más que crecer a lo largo de los años, aunque curiosamente, la cantidad de indiciados ha ido 
+            disminuyendo (esto teniendo en cuenta que el año 2023 aún no ha finalizado y sería precipitado 
+            establecer si la criminalidad ha aumentado o disminuido).
+            <br><br>
+            También es importante mencionar que la cantidad de indiciados hombres es mucho mayor que la de 
+            las mujeres y esta tendencia se ha ido manteniendo a lo largo de los años.
+            <br><br>
+            Otros datos interesantes son que, por ejemplo, las ciudades/municipios más poblados de cada 
+            departamento son los que tienden a tener mayor tasa de criminalidad.
+            <br><br>
+            Además de esto es bastante preocupante y alarmante notar que la cantidad de víctimas menores de edad 
+            es extremadamente alta, y más considerando que este número debería ser sí o sí cero, además de esto, 
+            el tipo de delito que más sufren son los relacionados con delitos sexuales, algo extremadamente alarmante.
+            <br><br>
+            Para finalizar, es interesante toda la información que podemos obtener en base a estos datos y 
+            con esta misma poder establecer planes y estrategias para lograr tomar las mejores decisiones.
+        </p>
+    </section>
+    <div class="div_separador"></div>
+    <section class="proceso">
+        <div class="div_h3_proceso" id="id_proceso"> <h3>Proceso</h3> </div>
+        <p>Después de una exhaustiba búsqueda por el internet encontré la plataforma Colombiana <a href="https://datos.gov.co/" target="_blank">https://datos.gov.co/</a> 
+            donde estabán los datos que necesitaba para lograr realizar el análisis que deseaba sobre la criminalidad en 
+            Colombia.
+            <br><br>
+            Estos son algunas imágenes sobre los millones y millones de datos que se encontraban en este dataset y un muy breve
+            resumen del proceso realizado: 
+        </p>
+        <div class="image-container">
+            <div class="image-box">
+                <img src="./Dataset inicial de indiciados.png" alt="Imagen del dataset inicial de indiciados"  class="image-clickable">
+                <div class="image-description">Dataset inicial de indiciados</div>
+            </div>
+            <div class="image-box">
+                <img src="./Dataset Inicial de la poblacion por municipio.png" alt="Imagen del dataset población por municipio"  class="image-clickable">
+                <div class="image-description">Dataset inicial de población de municipios</div>
+            </div>
+            <div class="image-box">
+                <img src="./Dataset Inicial de Victimas.png" alt="Imagen del dataset inicial de victimas" class="image-clickable">
+                <div class="image-description">Dataset inicial de Victimas</div>
+            </div>
+            <div class="image-box">
+                <img src="./historico querys pgadmin.png" alt="Imagen de un pequeño historico de querys" class="image-clickable">
+                <div class="image-description">Unos pocos de la gran cantidad de queries realizados</div>
+            </div>
+            <div class="image-box">
+                <img src="./estructura erd postgresql.png" alt="Estructura ERD de posgresql" class="image-clickable">
+                <div class="image-description">Estructura ERD genereada en PosgreSql</div>
+            </div>
+            <div class="image-box">
+                <img src="./modelo power bi.png" alt="Modelo generado por power bi" class="image-clickable">
+                <div class="image-description">Modelo de dataset Generado en Power Bi</div>
+            </div>
+        </div>
+
+    </section>
+    <div class="div_arriba_footer"></div>
+    <footer class="footer">
+        <div class="footer_redes_sociales">
+                <a href="https://www.linkedin.com/in/javier-stiven-correa-sua-b827b5254/"  target="_blank"><img src="./linkedin.svg" class="img_linkedin" alt="" width="30px" height="30px"></a>
+                <a href="mailto: javiercorrea9858@gmail.com"><img src="./square-envelope-solid.svg" class="img_correo" alt="" width="30px" height="30px"></a>
+        </div>
+        <div class="footer_enlaces">
+            <ul>
+                <li>
+                    <a href="#header_proyecto_criminalidad" class="footer_home">Ir al inicio</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_contacto" id="contacto-footer">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

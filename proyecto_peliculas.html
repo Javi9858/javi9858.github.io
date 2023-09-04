@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos_proyecto_criminalidad.css">
+    <title>Javier Correa</title>
+    <link rel="icon" href="./icono.svg">
+</head>
+<body>
+    <header id="header_proyecto_peliculas">
+        <img class="foto" src="./IMG(4).png" alt="Foto">
+        <h1 class="mi_nombre">Javier Correa Sua</h1>
+        <h2 class="mi_profesion">| Analista de Datos |</h2>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html" class="inicio">Ir a Inicio</a>
+                <a href="#id_proceso_peliculas" class="btn_proceso">Proceso</a>
+                <a href="#" class="contacto" id="contacto">Contacto</a>
+            </li>
+        </ul>        
+    </nav>
+
+    <!--Aquí está el nuevo div que agrego para la ventana popup-->
+    <div id="popup-container" class="popup">
+        <span id="close-button" class="close-button">×</span> <!-- Agrega un botón de cierre -->
+        <img src="./square-envelope-solid.svg" alt="Correo Electrónico" id="gmail-link">
+        <img src="./linkedin.svg" alt="LinkedIn" id="linkedin-link">
+        <p>Número Celular: +57 3008819213</p>
+    </div>
+    <!--Y aquí termina-->
+
+    <div class="div_separador">
+
+    </div>
+    <section class="titulo_descripcion">
+        <h2>Luces, Cámara, Datos: Descubriendo Secretos del Cine a través de Análisis</h2>
+        <p>Inmerso en el universo cinematográfico y fusionando la ciencia de transformar datos en narrativa
+             mediante análisis, depurando y construyendo estructuras de bases de datos, he llevado a cabo un
+              análisis basado en un conjunto de datos de la plataforma <a href="https://www.kaggle.com/datasets" target="_blank">Kaggle</a>
+            <br><br>
+            En este informe, les presentaré los resultados de este estudio.
+            ¡Vamos!.
+            <br><br>
+            Nota: Si quieres ver un informe mucho más a detalle que publiqué, puedes seguir este enlace: <a href="https://javiercorrea9858.wixsite.com/javier-correa-data/post/luces-c%C3%A1mara-datos-descubriendo-secretos-del-cine-a-trav%C3%A9s-de-an%C3%A1lisis" target="_blank">Informe películas</a>
+        </p>
+    </section>
+    <div class="div_separador"></div>
+    <section class="informe">
+        <!--Aquí debo poner el script de power bi o el video, según decida-->
+        <iframe title="Report Section" width="80%" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZmRhMjBjMWYtOWU3Mi00MzhiLWFjNjQtZmMzOGExMDM1OTJlIiwidCI6ImRiNGEzMDRhLTJkYmMtNGY0NS1iMmY5LTUyZTcxYjMxZTM0YyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+    </section>
+    <div class="div_separador"></div>
+    <section class="conclusiones">
+        <h3>Conclusiones</h3>
+        <p>
+            En general, este análisis ofrece valiosa información para la toma de decisiones en la industria cinematográfica,
+             destacando la importancia de la elección del género, la fecha de lanzamiento y las colaboraciones estratégicas
+              para lograr el éxito financiero en un mercado en constante evolución.
+            <br><br>
+            También revela cómo la industria cinematográfica experimenta variaciones mensuales 
+            en términos de cantidad de películas lanzadas, ingresos y presupuestos promedio, así como en los géneros más populares.
+             Estas tendencias ofrecen información valiosa para la toma de decisiones de los estudios sobre cuándo lanzar películas
+              de ciertos géneros para maximizar su éxito financiero y de audiencia.
+        </p>
+    </section>
+    <div class="div_separador"></div>
+    <section class="proceso">
+        <div class="div_h3_proceso" id="id_proceso_peliculas"> <h3>Proceso</h3> </div>
+        <p>Después de una exhaustiba búsqueda por el internet encontré la plataforma <a href="https://www.kaggle.com/datasets" target="_blank">Kaggle</a>
+            donde estabán los datos que necesitaba para lograr realizar el análisis que deseaba sobre el mundo cinematográfico,
+            fue una experiencia realmente gratificante todo el proceso para llegar hasta el resultado final, desde encontrar la data,
+            depurarla, limpiarla y organizarla, todo con código SQL, después de este hermoso proceso poder realizar la parte de las visualizaciones
+            y encontrar información realmente valiosa e inesperada, de verdad una gran experiencia.
+            <br><br>
+            Ahora quiero presentarles, a modo de resumen, unas pocas imágenes relatando de forma muy resumida como fue el proceso de este proyecto:
+        </p>
+        <div class="image-container">
+            <div class="image-box">
+                <img src="./1 Archivo de dateset de plataforma de kaggle.png" alt="Imagen del dataset inicial de peliculas"  class="image-clickable">
+                <div class="image-description">Dataset inicial con el que inició el proyecto</div>
+            </div>
+            <div class="image-box">
+                <img src="./Query(1).png" alt="Imagen de algunos de los tantos queries realizados"  class="image-clickable">
+                <div class="image-description">Algunos de los queries realizados a lo largo del proyecto</div>
+            </div>
+            <div class="image-box">
+                <img src="./Query (2).png" alt="Imagen de algunos de los tantos queries realizados" class="image-clickable">
+                <div class="image-description">Algunos de los queries realizados a lo lardo del proyecto</div>
+            </div>
+            <div class="image-box">
+                <img src="./Query(3).png" alt="Imagen de algunos de los tantos queries realizados" class="image-clickable">
+                <div class="image-description">Algunos de los queries realizados a lo largo del proyecto</div>
+            </div>
+            <div class="image-box">
+                <img src="./2 Diagrama ER de PostgreSql.png" alt="Estructura ERD de posgresql" class="image-clickable">
+                <div class="image-description">Estructura ERD genereada en PosgreSql</div>
+            </div>
+            <div class="image-box">
+                <img src="./3 Todas las tablas en poewer bi.png" alt="Modelo generado por power bi" class="image-clickable">
+                <div class="image-description">Modelo de dataset Generado en Power Bi</div>
+            </div>
+        </div>
+
+    </section>
+    <div class="div_arriba_footer"></div>
+    <footer class="footer">
+        <div class="footer_redes_sociales">
+                <a href="https://www.linkedin.com/in/javier-stiven-correa-sua-b827b5254/"  target="_blank"><img src="./linkedin.svg" class="img_linkedin" alt="" width="30px" height="30px"></a>
+                <a href="mailto: javiercorrea9858@gmail.com"><img src="./square-envelope-solid.svg" class="img_correo" alt="" width="30px" height="30px"></a>
+        </div>
+        <div class="footer_enlaces">
+            <ul>
+                <li>
+                    <a href="#header_proyecto_peliculas" class="footer_home">Ir al inicio</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_contacto" id="contacto-footer">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

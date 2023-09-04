@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Javier Correa</title>
+    <link rel="icon" href="./icono.svg">
+</head>
+<body>
+    <header id="header">
+        <img class="foto" src="./IMG(4).png" alt="Foto">
+        <h1 class="mi_nombre">Javier Correa Sua</h1>
+        <h2 class="mi_profesion">| Analista de Datos |</h2>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#proyectos" class="proyectos">Proyectos</a>
+                <a href="#" class="contacto" id="contacto">Contacto</a>
+            </li>
+        </ul>        
+    </nav>
+
+    <!--Aquí está el nuevo div que agrego para la ventana popup-->
+    <div id="popup-container" class="popup">
+        <span id="close-button" class="close-button">×</span>
+        <img src="./square-envelope-solid.svg" alt="Correo Electrónico" id="gmail-link">
+        <img src="./linkedin.svg" alt="LinkedIn" id="linkedin-link">
+        <p>Número Celular: +57 3008819213</p>
+    </div>
+    <!--Y aquí termina-->
+
+    <div class="div_separador_1">
+
+    </div>
+    <section class="segundo_section">
+        <article class="segundo_section_article" id="habilidades">
+            <h4 class="titulo_habilidades">Habilidades</h4>
+            <p class="parrafo_habilidades">Soy un apasionado analista de datos con un enfoque en la 
+                toma de decisiones basadas en datos. Mi experiencia abarca 
+                desde la recopilación y limpieza de datos hasta el análisis 
+                avanzado y la generación de informes, procesos ETL, visualizaciones,
+                 métricas de negocio y todo lo relacionado al Business Intelligence.</p>
+        </article>
+        <article class="segundo_section_article" id="herramientas">
+            <h4 class="titulo_herramientas">Herramientas</h4>
+            <p class="parrafo_herramientas">Me especializo en el uso de herramientas ofimáticas como Excel y todo el paquete de office, 
+                Google Sheets, Power BI, Tableu, Google Studio,  
+                SQL, PostgreSql, MySql,  Python (básico), entre otras. </p>
+        </article>
+        <article class="segundo_section_article" id="sobre_mi">
+            <h4 class="titulo_sobre_mi">Sobre Mi</h4>
+            <p class="parrafo_sobre_mi">Soy un apasionado en el análisis de datos, con un ojo agudo para los detalles
+                 y una curiosidad insaciable por descubrir historias dentro de los datos.
+                <br>
+                <br>
+                 Actualmente estudiando una ingeniería de software con el enfoque en la ciencia 
+                de datos y bases de datos, cuento con más de dos años de experiencia en roles 
+                relacionados con todo el tema del análisis de indicadores y creación de informes 
+                que ayudan a la toma decisiones informadas.
+                <br>
+                <br>
+                Cuando me encuentro en ratos libres o de ocio me encanta ir a viajes, tener nuevas 
+                experiencias, me gusta mucho jugar ajedrez y leer, también ver películas y series 
+                en ingles para seguir desarrollando mis habilidades en este idioma.
+            </p>
+        </article>
+        
+    </section>
+    <div class="div_separador_2">
+
+    </div>
+    <section class="section_proyectos">
+        <div class="div_h2_proyectos">
+            <h2 class="h2_proyectos" id="proyectos">Proyectos</h2>
+        </div>
+        <a href="./proyecto_criminalidad.html" class="a_criminalidad">
+            <article class="section_proyectos_article" id="criminalidad">
+                <div class="imagen_container">
+                    <img src="./imagen_informe_criminalidad_2.png" class="imagen_proyecto" alt="Imagen de Proyecto de Criminalidad">
+                </div>
+                <div class="texto_container">
+                    <h4 class="titulo_proyecto">
+                        Del Caos a la Claridad: Un Enfoque Analítico de la Criminalidad en Colombia
+                    </h4>
+                    <p class="parrafo_proyecto">
+                        'Del Caos a la Claridad' es un análisis para iluminar las complejas dinámicas criminales 
+                        en este país. A 
+                        través de una investigación rigurosa y un análisis detallado, exploramos las tendencias 
+                        delictivas, las victimas y los indiciados. Este estudio te llevará a conocer un poco 
+                        más la situación de la criminalidad en Colombia.
+                    </p>
+                </div>
+            </article>
+        </a>
+
+        <!--Nota para mi: Cuando agregue un nuevo proyecto debo copiar y pegar la etiqueta de article,
+        despues solo debo actualizar el id, la imagen, el titulo, y el parrafo, el diseño se actualizará solo-->
+        <a href="./proyecto_peliculas.html" class="a_peliculas">
+            <article class="section_proyectos_article" id="cine">
+                <div class="imagen_container">
+                    <img src="./viz_peliculas.png" class="imagen_proyecto" alt="Imagen de Proyecto de Cine">
+                </div>
+                <div class="texto_container">
+                    <h4 class="titulo_proyecto">
+                        Luces, Cámara, Datos: Descubriendo secretos del cine a través del Análisis
+                    </h4>
+                    <p class="parrafo_proyecto">
+                        ¿Alguna vez te has preguntado cuáles son las películas más taquilleras del mercado? 
+                        o ¿Cuáles son las productoras más rentables?, o quizás ¿Qué géneros son los más 
+                        atractivos para el público dependiendo del mes del año?.
+                        <br>
+                        <br>
+                        Si la respuesta a alguna de estas preguntas es si, entonces estás en el lugar correcto,
+                        ¡Ingresa y averigualo!.
+                    </p>
+                </div>
+            </article>
+        </a>
+        
+        <!--Hasta aquí es donde debo copiar-->
+    </section>
+    <div class="div_arriba_footer"></div>
+    <footer class="footer">
+        <div class="footer_redes_sociales">
+                <a href="https://www.linkedin.com/in/javier-stiven-correa-sua-b827b5254/"  target="_blank"><img src="./linkedin.svg" class="img_linkedin" alt="" width="30px" height="30px"></a>
+                <a href="mailto: javiercorrea9858@gmail.com"><img src="./square-envelope-solid.svg" class="img_correo" alt="" width="30px" height="30px"></a>
+        </div>
+        <div class="footer_enlaces">
+            <ul>
+                <li>
+                    <a href="#header" class="footer_home">Ir al inicio</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_contacto" id="contacto-footer">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
